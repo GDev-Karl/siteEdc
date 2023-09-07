@@ -4,6 +4,11 @@
     --secondary: #E8891B;
     --light: #EDF1FC;
     --dark: #103784; /* #17224D; */
+    --black: #000000;
+}
+
+.text-black {
+    color: black;
 }
 
 .fw-medium {
@@ -104,9 +109,9 @@
     margin-right: 30px;
     padding: 25px 0;
     color: var(--dark);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     outline: none;
 }
 
@@ -236,7 +241,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/projets_banniere.JPG) center center no-repeat;
     background-size: cover;
 }
 
