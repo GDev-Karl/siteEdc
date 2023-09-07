@@ -3,7 +3,7 @@
     --primary: #103784;
     --secondary: #E8891B;
     --light: #EDF1FC;
-    --dark: #17224D;
+    --dark: #103784; /* #17224D; */
 }
 
 .fw-medium {
@@ -75,6 +75,7 @@
 .top-bar {
     height: 75px;
     padding: 0 4rem;
+    z-index: 10000;
 }
 
 .nav-bar {
@@ -111,7 +112,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 @media (max-width: 991.98px) {
